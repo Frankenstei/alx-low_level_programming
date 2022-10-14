@@ -12,7 +12,7 @@ int main(void)
 
 	while (m <= 8)
 	{
-		int n = 0;
+		n = 0;
 		while (n <= 9)
 		{
 			if (m != 0 && n > m)
