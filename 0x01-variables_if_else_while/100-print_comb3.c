@@ -8,24 +8,24 @@
 int main(void)
 {
 	int m = 0;
-	int n = 1;
+	int n = 0;
 
 	while (m <= 8)
 	{
-		n = 0;
+	       	n = 0;
 		while (n <= 9)
 		{
-			if (m != 0 && n > m)
+			if (m != n && n > m)
 			{
 				putchar(m + '0');
 				putchar(n + '0');
-				if (m < 8 && n < 9)
+				if (m < 8 || n < 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
-				n++;
 			}
+			n++;
 		}
 		m++;
 	}
