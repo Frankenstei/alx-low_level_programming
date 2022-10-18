@@ -2,6 +2,8 @@
 /**
  * _isalpha - returns 1 if c is a letter, lowercase or uppercase
  * Returns 0 otherwise
+ *
+ * @c is a character
  */
 
 int _isalpha(int c)
