@@ -9,7 +9,7 @@ void jack_bauer(void)
 {
 	int z = 0;
 
-	while (z <= 2 || y < 4)
+	while (z <= 2)
 	{
 		int y = 0;
 		while (y <= 9)
@@ -17,11 +17,15 @@ void jack_bauer(void)
 			int b = 0;
 
 			while (b < 6)
-			{
+i			{
 				int a = 0;
 
 				while (a <= 9)
 				{
+					if (z == 2 && y == 3 && b == 5 && a == 9)
+					{
+						break;
+					}
 					_putchar(z + '0');
 					_putchar(y + '0');
 					_putchar(':');
