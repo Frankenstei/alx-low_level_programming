@@ -27,7 +27,7 @@ void times_table(void)
 				}
 
 			}
-			if (mul < 10)
+			if (mul < 10 && b != 0)
 			{
 				_putchar(mul + '0');
 				if (b < 9)
