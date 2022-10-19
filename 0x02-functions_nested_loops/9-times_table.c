@@ -27,7 +27,7 @@ void times_table(void)
 				}
 
 			}
-			if (mul < 10 && b != 0)
+			else if (mul < 10 && b != 0)
 			{
 				_putchar(mul + '0');
 				if (b < 9)
@@ -37,7 +37,7 @@ void times_table(void)
 					_putchar(' ');
 				}
 			}
-			if (mul >= 10)
+			else if (mul >= 10)
 			{
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
