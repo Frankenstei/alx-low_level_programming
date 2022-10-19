@@ -16,9 +16,36 @@ void times_table(void)
 		while (b <= 9)
 		{
 			int mul = a * b;
-			_putchar(mul + '0');
-			_putchar(' ');
-			b++;
+
+			if (mul == 0)
+			{
+				_putchar(mul + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+
+			}
+			if (mul < 10)
+			{
+				_putchar(mul + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
+			if (mul >= 10)
+			{
+				_putchar((mul / 10) + '0');
+				_putchar((mul % 10) + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
 		}
 		_putchar('\n');
 		a++;
