@@ -1,9 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
-/** print_to_98 - prints to nighty eight
- *
- * Return: Always 0
+/**
+ * print_to_98 - prints to nighty eight
  *
  * @n: is an integer
  */
