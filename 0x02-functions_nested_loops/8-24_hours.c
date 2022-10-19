@@ -19,6 +19,7 @@ void jack_bauer(void)
 			{
 				break;
 			}
+
 			int b = 0;
 
 			while (b < 6)
