@@ -21,7 +21,7 @@ void jack_bauer(void)
 			{
 				int a = 0;
 
-				while (a < 9)
+				while (a <= 9)
 				{
 					_putchar(z + '0');
 					_putchar(y + '0');
