@@ -12,12 +12,15 @@ void jack_bauer(void)
 	while (z <= 23)
 	{
 		int y = 0;
+
 		while (y <= 59) 
 		{
 			int b = 0;
+
 			while (b <= 60)
 			{
 				int a = 0;
+
 				while (a <= 60)
 				{
 					_putchar(a + '0');
