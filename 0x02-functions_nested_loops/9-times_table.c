@@ -25,6 +25,10 @@ void times_table(void)
 					_putchar(',');
 					_putchar(' ');
 				}
+				else
+				{
+					_putchar(' ');
+				}
 
 			}
 			else if (mul < 10 && b != 0)
@@ -34,6 +38,10 @@ void times_table(void)
 				{
 					_putchar(',');
 					_putchar(' ');
+					_putchar(' ');
+				}
+				else
+				{
 					_putchar(' ');
 				}
 			}
