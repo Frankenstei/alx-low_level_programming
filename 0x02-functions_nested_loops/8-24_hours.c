@@ -9,19 +9,19 @@ void jack_bauer(void)
 {
 	int z = 0;
 
-	while (z <= 23)
+	while (z <= 2)
 	{
 		int y = 0;
-
-		while (y <= 59) 
+		
+		while (y <= 3) 
 		{
 			int b = 0;
 
-			while (b <= 60)
+			while (b <= 6)
 			{
 				int a = 0;
 
-				while (a <= 60)
+				while (a <= 9)
 				{
 					_putchar(z + '0');
 					_putchar(y + '0');
