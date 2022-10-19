@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/**print_to_98  - prints to nighty eight
+/** print_to_98 - prints to nighty eight
  *
  * Return: Always 0
  *
@@ -9,7 +9,7 @@
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	if (n <= 98)
 	{
 		while (n <= 98)
 		{
@@ -26,7 +26,7 @@ void print_to_98(int n)
 		while (n >= 98)
 		{
 			printf("%d", n);
-			if (n < 99)
+			if (n > 98)
 			{
 				printf(", ");
 			}
