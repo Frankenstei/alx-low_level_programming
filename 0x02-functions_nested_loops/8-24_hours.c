@@ -9,11 +9,11 @@ void jack_bauer(void)
 {
 	int z = 0;
 
-	while (z < 2)
+	while (z <= 2)
 	{
 		int y = 0;
-		
-		while (y < 3) 
+
+		while (y <= 3) 
 		{
 			int b = 0;
 
