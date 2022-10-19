@@ -17,7 +17,7 @@ void times_table(void)
 		{
 			int mul = a * b;
 
-			if (mul == 0)
+			if (b == 0)
 			{
 				_putchar(mul + '0');
 				if (b < 9)
