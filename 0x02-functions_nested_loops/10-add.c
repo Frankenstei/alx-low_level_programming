@@ -5,9 +5,9 @@
  *
  * Return: Always 0
  *
- * @a is an integer
+ * @a: is an integer
  *
- * @b is an integer
+ * @b: is an integer
  */
 
 int add(int a, int b)
