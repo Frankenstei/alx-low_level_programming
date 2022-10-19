@@ -15,12 +15,11 @@ void jack_bauer(void)
 
 		while (y <= 9)
 		{
+			int b = 0;
 			if (z == 2 && y > 3)
 			{
 				break;
 			}
-
-			int b = 0;
 
 			while (b < 6)
 			{
