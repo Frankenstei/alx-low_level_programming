@@ -3,9 +3,6 @@
 /**
  * more_numbers - prints zero to fourteen
  *
- * @i: integer
- * @j: integer
- *
  * Return: Always 0
  */
 
