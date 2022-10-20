@@ -25,12 +25,12 @@ void print_diagonal(int n)
 				_putchar(' ');
 				j++;
 			}
+			i++;
 			int j = 0;
 
 			_putchar('\\');
 			_putchar('\n');
 		}
-		i++;
 	}
 	_putchar('\n');
 }
