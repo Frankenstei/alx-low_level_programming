@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void more_numbers - prints zero to fourteen
+ * more_numbers - prints zero to fourteen
  *
  * @i: integer
  * @j: integer
