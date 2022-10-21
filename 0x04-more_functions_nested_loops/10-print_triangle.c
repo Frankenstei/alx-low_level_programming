@@ -22,8 +22,12 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			_putchar('#');
+			for (k = 1; k <= i; k++)
+			{
+				_putchar('#');
+			}
 			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
