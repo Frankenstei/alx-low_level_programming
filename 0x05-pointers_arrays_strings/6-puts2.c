@@ -14,11 +14,7 @@ void puts2(char *str)
 
 	while (*(str + i))
 	{
-		if (*(str + i) == '\0')
-		{
-			break;
-		}
-		else
+		if (*(str + i + 1) != '\0')
 		{
 			_putchar(*str);
 			str = str + 2;
