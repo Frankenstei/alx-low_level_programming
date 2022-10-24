@@ -18,12 +18,11 @@ void print_rev(char *s)
 		length++;
 	}
 
-	for (*s = s[length - 1]; *s != '\0'; s--)
+	length = length - 1;
+
+	while (length >= 0)
 	{
-		if (length - 1 > 0)
-		{
-			_putchar(*s);
-		}
+		_putchar(*(s + length));
 	}
 	_putchar('\n');
 }
