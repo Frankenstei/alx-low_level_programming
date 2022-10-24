@@ -12,7 +12,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (; *str != '\0'; s = s+2;)
+	for (; *str != '\0'; s = s+2)
 	{
 		_putchar(*str);
 	}
