@@ -22,7 +22,7 @@ void puts_half(char *str)
 	while (*(str + length) != '\0')
 	{
 		_putchar(*(str + length));
-		str++;
+		length++;
 	}
 	_putchar('\n');
 }
