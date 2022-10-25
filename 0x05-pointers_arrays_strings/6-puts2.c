@@ -17,7 +17,7 @@ void puts2(char *str)
 		if (*(str + i + 1) != '\0')
 		{
 			_putchar(*str - i);
-			str = str + 2;
+			str = str + 1;
 		}
 	}
 	_putchar('\n');
