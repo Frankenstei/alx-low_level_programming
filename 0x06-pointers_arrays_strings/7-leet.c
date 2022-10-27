@@ -19,9 +19,9 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (*(s + j) == *(a + j) || *(s + j) == *(b  + j))
+			if (*(s + i) == *(a + j) || *(s + i) == *(b + j))
 			{
-				*(s + j) = *(e + j);
+				*(s + i) = *(e + j)
 			}
 		}
 	}
