@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * str_toupper - coverts strings to uppercase
+ * string_toupper - coverts strings to uppercase
  *
  * @str: string to be converted
  *
