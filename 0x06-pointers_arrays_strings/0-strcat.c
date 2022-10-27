@@ -19,10 +19,10 @@ char *_strcat(char *dest, char *src)
 		length++;
 	}
 
-	for  (i = 0; *(src + i) != '\0'; i++, length++)
+	for  (i = 0; *(src + i) != 0; i++, length++)
 	{
 		*(dest + length) = *(src + i);
 	}
-	*(dest + length - 1) = '\0';
+	*(dest + length) = '\0';
 	return (dest);
 }
