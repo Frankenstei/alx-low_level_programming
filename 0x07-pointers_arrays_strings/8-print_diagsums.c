@@ -6,6 +6,8 @@
  *
  * @a: integer
  * @size: integer
+ *
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
