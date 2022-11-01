@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints the sum of two diagonals
+ * print_diagsums - prints the sum of two diagonalss
  *
  * @a: integer
  * @size: integer
@@ -18,11 +18,9 @@ void print_diagsums(int *a, int size)
 	{
 		diag1 += a[i][j];
 	}
-	printf("%d, ", diag1);
-
 	for (i = 0, j = (size - 1); i < size; i++, j--)
 	{
 		diag2 += a[i][j];
 	}
-	printf("%d", diag2);
+	printf("%d, %d", diag1, diag2);
 }
