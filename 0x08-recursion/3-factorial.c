@@ -17,7 +17,7 @@ int factorial(int n)
 
 	else if (n == 1 || n == 0)
 	{
-		return (n)
+		return (n);
 	}
 
 	else
