@@ -3,16 +3,15 @@
 /**
  * _sqrt_recursion - square root of a number
  *
+ * _power - power of 0.5
+ *
  * @n: integer number
  *
  * Return: integer
  *
- * _power - power of 0.5
  *
  * @x: integer number
  * @y: integer number
- *
- * Return: integer
  */
 int _power(int x, int y);
 
@@ -49,4 +48,3 @@ int _sqrt_recursion(int n)
 	}
 	return (_power(n, 2));
 }
-	
