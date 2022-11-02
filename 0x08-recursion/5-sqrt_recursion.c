@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
+ * _power - power of number
  * _sqrt_recursion - square root of a number
- *
- * _power - power of 0.5
- *
  * @n: integer number
  *
  * Return: integer
