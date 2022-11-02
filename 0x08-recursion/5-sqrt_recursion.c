@@ -13,7 +13,6 @@
  * @x: integer number
  * @y: integer number
  */
-int _power(int x, int y);
 
 int _power(int x, int y)
 {
@@ -46,5 +45,5 @@ int _sqrt_recursion(int n)
 	{
 		return (1);
 	}
-	return (_power(x, 2));
+	return (_power(n, 2));
 }
