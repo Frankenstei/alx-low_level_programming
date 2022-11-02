@@ -2,7 +2,6 @@
 
 /**
  * _power - power of number
- * @n: integer number
  *
  * Return: integer
  *
