@@ -2,7 +2,6 @@
 
 /**
  * _power - power of number
- * _sqrt_recursion - square root of a number
  * @n: integer number
  *
  * Return: integer
@@ -28,6 +27,14 @@ int _power(int x, int y)
 
 	return (0 + _power(x, y + 1));
 }
+
+/**
+ * _sqrt_recursion - square root of number
+ *
+ * @n: integer
+ *
+ * Return: integer
+ */
 
 int _sqrt_recursion(int n)
 {
