@@ -11,7 +11,7 @@
  * Return: 0, 1 if character
  */
 
-int main(argc, *argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0, i;
 
