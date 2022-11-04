@@ -4,8 +4,8 @@
 /**
  * main - multiplies two numbers
  *
- * @argc - argument count
- * @argv - argment vector
+ * @argc: argument count
+ * @argv: argment vector
  *
  * Return: 0, 1 if two arguments not returned
  */
