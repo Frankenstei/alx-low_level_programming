@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - multiplies two numbers
  *
@@ -9,7 +10,7 @@
  * Return: 0, 1 if two arguments not returned
  */
 
-int main(argc, *argv[])
+int main(int argc, char *argv[])
 {
 	int i, mul = 1;
 
