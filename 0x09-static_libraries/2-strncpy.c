@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * *_strcat - concat
+ * *_strncpy - ncopy
  *
  * @dest: character
  * @src: character
+ * @n: integer
  *
  * Return: pointer
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncpy(char *dest, char *src, int n)
 {
 }

@@ -1,7 +1,6 @@
 #include "main.h"
 
-/**
- * *_strcat - concat
+/** *_strcpy - copy
  *
  * @dest: character
  * @src: character
@@ -9,6 +8,6 @@
  * Return: pointer
  */
 
-char *_strcat(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 }
