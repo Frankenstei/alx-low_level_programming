@@ -15,16 +15,22 @@ int main(int argc, char *argv[])
 {
 	int sum = 0, i;
 
-	for (i = 1; i < argc; i++)
+	if (argc > 1)
 	{
-		if ((argv[i] >= 'a' && argv[i] <= 'z') || (argv[i] >= 'A' && argv[i] <= 'Z'))
+		for (i = 0; i < arg; i++)
 		{
-			printf("Error\n");
-			return (1);
+			if ((argv[i] >= 'a' && argv[i] <= 'z')
+					|| (argv[i] >= 'A' && argv[i] <= 'Z'))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			sum = sum + atoi(argv[i]);
 		}
-		sum = sum + atoi(argv[i]);
+		printf("%i\n", sum);
 	}
-	printf("%i\n", sum);
-
-	return (0);
+	else
+	{
+		printf("0\n");
+	}
 }
