@@ -12,4 +12,26 @@
 
 char *_strdup(char *str)
 {
+	char *ptr;
+	unsigned int length;
+	unsigned int i;
+
+	if (*str == NULL)
+	{
+		return (NULL);
+	}
+	while (*(str + i) != '\0')
+	{
+		length++;
+	}
+
+	ptr = malloc(i * sizeof(char));
+
+	for (i = 0; i < length; i++)
+	{
+		ptr[i] = str[i];
+	}
+
+	return (ptr);
+
 }
