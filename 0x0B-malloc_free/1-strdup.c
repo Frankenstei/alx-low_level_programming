@@ -19,7 +19,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
 	for (; str[length] != '\0'; length++)
 	{
 	}
