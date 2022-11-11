@@ -4,7 +4,6 @@
 
 /**
  * *array_range - range of arrays
- * 
  * @min: lower limit
  * @max: upper limit
  *
