@@ -1,4 +1,19 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-#endif
+/**
+ * init_dog - initializes struct dog
+ *
+ * @name: pointer
+ * @age: float
+ * @owner; pointer
+ *
+ * Return: 0
+ */
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+	d -> name = name;
+	d -> age = age;
+	d -> owner = owner;
+}
