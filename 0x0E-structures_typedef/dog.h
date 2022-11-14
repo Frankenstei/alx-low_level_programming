@@ -2,6 +2,8 @@
 #define MAIN_H
 
 /**
+ * struct dog - stores info for dog
+ *
  * @name: pointer
  * @age: float
  * @owner: pointer
