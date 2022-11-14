@@ -3,8 +3,10 @@
 
 /**
  * @name: pointer
- * @@age: float
+ * @age: float
  * @owner: pointer
+ *
+ * Description: struct defines dog
  */
 struct dog
 {
