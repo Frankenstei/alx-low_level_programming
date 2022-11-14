@@ -8,7 +8,7 @@
  * @d: struct dog
  * @name: pointer
  * @age: float
- * @owner; pointer
+ * @owner: pointer
  *
  * Return: 0
  */
