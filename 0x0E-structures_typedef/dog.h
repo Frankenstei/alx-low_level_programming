@@ -5,6 +5,7 @@
  * @name: pointer
  * @@age: float
  * @owner: pointer
+ */
 struct dog
 {
 	char *name;
