@@ -1,4 +1,21 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "dog.h"
+#include <stdlib.h>
+#include <stdio.h>
 
-#endif
+/**
+ * free_dog - frees memory of struct
+ *
+ * @d: struct variable
+ *
+ * Return: nothing
+ */
+
+void free_dog(dog_t *d)
+{
+	if (d)
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
+}
