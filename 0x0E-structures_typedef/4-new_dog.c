@@ -9,7 +9,7 @@
  * @age: age in float
  * @owner: owner in char
  *
- * Return struct
+ * Return: struct
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
