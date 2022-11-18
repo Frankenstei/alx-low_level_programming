@@ -5,19 +5,23 @@
  *
  * @separator: separator
  * @n: integer
+ *
+ * Return: void
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
+	char *s
 	va_list ap;
 
 	va_start(ap, n);
 	for (i = 0; i < n; i++)
 	{
-		if (va_arg(ap, char *))
+		s = va_arg(ap, char *);
+		if (s)
 		{
-			printf("%s", va_arg(ap, char *));
+			printf("%s", s);
 		}
 		else
 		{
