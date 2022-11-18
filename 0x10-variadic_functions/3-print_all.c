@@ -28,9 +28,9 @@ void print_all(const char * const format, ...)
 
 		while (j < 4)
 		{
-			if (format[i] == *form[j].charType)
+			if (format[i] == form[j]->charType)
 			{
-				form[j].f(separator, ap);
+				form[j]->f(separator, ap);
 				separator = ", ";
 			}
 			j++;
