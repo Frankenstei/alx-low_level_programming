@@ -31,4 +31,5 @@ list_t *add_node(list_t **head, const char *str)
 		*head = tempMem;
 		return (tempMem);
 	}
+	return (0);
 }
