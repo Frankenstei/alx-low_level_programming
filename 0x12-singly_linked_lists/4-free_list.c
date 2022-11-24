@@ -2,7 +2,7 @@
 
 /**
  * free_list - frees the list
- * @head
+ * @head: first node
  * Return: nothing
  */
 
