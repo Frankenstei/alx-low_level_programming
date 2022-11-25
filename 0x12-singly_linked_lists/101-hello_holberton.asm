@@ -1,11 +1,14 @@
 org 0X100
 
-mov dx, msg
-mov bx, 1
-mov ah, 0X40
-int 0X21
-
-mov ah, 0X4c
-int 0X21
-
-msg db 'Hello, Holberton', 0,  0x0d, 0x0a
+msg: db 'Hello, Holberton', 0
+fmt: db "%s", 10, 0
+SECTION .print
+extern printf
+global main
+main:
+mov esi, msg
+mov edi, fmt
+mov eax, 0
+call printf
+mov eax, 0
+ret
