@@ -6,8 +6,8 @@
  * Return: nothing
  */
 
-void execFirst() __attribute__((constructor));
-void execFirst()
+void execFirst(void) __attribute__((constructor));
+void execFirst(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
