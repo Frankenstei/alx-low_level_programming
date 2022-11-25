@@ -12,7 +12,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *tempMem;
-	unsigned int i;
+	int i;
 
 	if (head != NULL && str != NULL)
 	{
@@ -22,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 			return (NULL);
 		}
 		tempMem->str = strdup(str);
-		for (i = 0; str != '\0'; i++)
+		for (i = 0; str[i] != '\0'; i++)
 		{
 			;
 		}
