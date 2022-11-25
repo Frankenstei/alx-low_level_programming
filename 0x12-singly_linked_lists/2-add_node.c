@@ -12,7 +12,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *tempMem;
-	int i;
+	size_t i;
 
 	if (head != NULL && str != NULL)
 	{
@@ -30,6 +30,6 @@ list_t *add_node(list_t **head, const char *str)
 		tempMem->next = NULL;
 		tempMem->next = *head;
 		*head = tempMem;
-		return (head);
+		return (*head);
 	}
 }
