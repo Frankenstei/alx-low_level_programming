@@ -27,6 +27,7 @@ list_t *add_node(list_t **head, const char *str)
 			;
 		}
 		tempMem->len = i;
+		tempMem->next = NULL;
 		tempMem->next = *head;
 		*head = tempMem;
 		return (head);
