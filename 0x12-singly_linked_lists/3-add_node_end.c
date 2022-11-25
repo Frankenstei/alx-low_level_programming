@@ -11,7 +11,7 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t tempMem, temp;
+	list_t *tempMem, *temp;
 	size_t i;
 
 	tempMem = malloc(sizeof(list_t));
