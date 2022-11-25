@@ -8,4 +8,4 @@ int 0X21
 mov ah, 0X4c
 int 0X21
 
-msg db 'Hello, Holberton', 0x0d, 0x0a
+msg db 'Hello, Holberton', 0,  0x0d, 0x0a
