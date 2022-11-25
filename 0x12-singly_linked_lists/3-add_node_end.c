@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
- * list_t *add_node_end(list_t **head, const char *str)
- *
+ * *add_node_end - adds node to end
  * @head: first node
  * @str: data
  *
