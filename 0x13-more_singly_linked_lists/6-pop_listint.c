@@ -11,7 +11,7 @@
 int pop_listint(listint_t **head)
 {
 	int headNode;
-	listint_t *tmpMem, *emptyList;
+	listint_t *tmpMem,*emptyList;
 
 	if (*head == NULL)
 	{
