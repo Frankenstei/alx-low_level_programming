@@ -16,7 +16,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	tmpMem = *head;
 	for (i = 0; i < index && head != NULL; i++)
 	{
-		tmpMem = temp->next;
+		tmpMem = tmpMem->next;
 	}
 	nthNode = tmpMem;
 	free(tmpMem);
