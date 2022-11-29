@@ -20,10 +20,6 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	}
 	nthNode = tmpMem;
 	free(tmpMem);
-	if (*nthNode == NULL)
-	{
-		return (NULL);
-	}
 	return (*nthNode);
 }
 
