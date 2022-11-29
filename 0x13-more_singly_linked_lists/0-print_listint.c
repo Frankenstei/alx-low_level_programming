@@ -12,7 +12,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t no_of_elements;
 
-	while (h->next != NULL)
+	while (h != NULL)
 	{
 		if (h->next == NULL)
 		{
