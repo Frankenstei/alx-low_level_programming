@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * size_t - prints all elements
+ * print_listint - prints all elements
  *
- * @h: node
+ * @h: head of node
  *
  * Return: nothing
  */
