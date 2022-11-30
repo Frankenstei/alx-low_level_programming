@@ -5,12 +5,13 @@
  *
  * @head: first node
  *
- * Return; list
+ * Return: list
  */
 
 listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *tmpMem = NULL, *mainMem = NULL;
+
 	while (*head != NULL)
 	{
 		mainMem = (*head)->next;
