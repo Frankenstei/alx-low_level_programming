@@ -6,6 +6,8 @@
  * @head: first node
  * @idx: index for new node
  * @n: data
+ *
+ * Return: mew node
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
