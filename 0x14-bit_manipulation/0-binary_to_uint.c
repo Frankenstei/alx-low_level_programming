@@ -23,16 +23,18 @@ unsigned int binary_to_uint(const char *b)
 		;
 	}
 
-	for (length--, multiplier = 1; length > 0; length--, multiplier = multiplier * 2)
+	/**
+	 * for (length--, multiplier = 1; length > 0; length--, multiplier = multiplier * 2)
+	 */
+	while (length--)
 	{
 		if (b[length] != '0' || b[length] != '1')
 		{
 			return (0);
 		}
-		if (b[length] & 1)
+		if (b[length] == '1')
 		{
-			uint = uint + multiplier;
+			uint = uint + 1 << multiplier;
 		}
-	}
 	return (uint);
 }
