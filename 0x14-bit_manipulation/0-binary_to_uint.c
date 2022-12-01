@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint;
 
-	int length, multiplier = 1;
+	int length, multiplier;
 
 	if (b == NULL)
 	{
@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 		;
 	}
 
-	for (length--; length > 0; length--, multiplier = multiplier * 2)
+	for (length--, multiplier = 1; length > 0; length--, multiplier = multiplier * 2)
 	{
 		if (b != '0' || b != '1')
 		{
