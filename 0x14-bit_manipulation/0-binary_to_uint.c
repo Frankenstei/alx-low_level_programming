@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 
 	for (length--, multiplier = 1; length > 0; length--, multiplier = multiplier * 2)
 	{
-		if (b != '0' || b != '1')
+		if (b[length] != '0' || b[length] != '1')
 		{
 			return (0);
 		}
