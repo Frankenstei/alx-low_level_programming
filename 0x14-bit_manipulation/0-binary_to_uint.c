@@ -14,7 +14,7 @@ unsigned int binary_to_uint(const char *b)
 
 	int length, multiplier;
 
-	if(!b)
+	if (!b)
 	{
 		return (0);
 	}
@@ -22,7 +22,8 @@ unsigned int binary_to_uint(const char *b)
 	{
 		;
 	}
-	for (length--, multiplier = 1; length >= 0; length--, multiplier = multiplier * 2)
+	for (length--, multiplier = 1;
+		       	length >= 0; length--, multiplier = multiplier * 2)
 	{
 		if (b[length] != '0' && b[length] != '1')
 		{
@@ -33,6 +34,5 @@ unsigned int binary_to_uint(const char *b)
 			uint = uint + multiplier;
 		}
 	}
-	 
 	return (uint);
 }
