@@ -33,7 +33,7 @@ void can_open(int file_from, int file_to, char *argv[])
  * Return: Always 0
  */
 
-int main(int argv, char *argc[])
+int main(int argc, char *argv[])
 {
 	int file_from, file_to, close_error;
 	ssize_t rread, wwrite;
