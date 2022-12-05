@@ -35,7 +35,7 @@ void can_open(int file_from, int file_to, char *argv[])
 
 int main(int argv, char *argc[])
 {
-	int file_from, file_to, close_err;
+	int file_from, file_to, close_error;
 	ssize_t rread, wwrite;
 	char text[1024];
 
