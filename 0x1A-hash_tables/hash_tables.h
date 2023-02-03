@@ -1,5 +1,5 @@
-#ifndef _HASH
-#define _HASH
+#ifndef __HASH
+#define __HASH
 /**
  * struct hash_node_s - Node of a hash table
  *
